@@ -1,7 +1,6 @@
 import project
 
 def test_format_time():
-    """Tests the format_time function."""
     assert project.format_time(0) == "00:00"
     assert project.format_time(60) == "01:00"
     assert project.format_time(125) == "02:05"
